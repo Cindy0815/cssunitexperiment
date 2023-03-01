@@ -1,0 +1,137 @@
+* {
+  font-family:'Tilt Neon', cursive;
+}
+
+.section1 {
+  background-color: lightpink;
+  padding: 30px;
+}
+      
+.box1 {
+  background-color: palevioletred;
+  padding: 10px;
+  margin: 10px;
+}
+    
+.box1inner {
+  background-color: papayawhip;
+  padding: 5px;
+  margin: 5px;
+}
+
+p, .box1inner{
+  font-size: 3vw;
+
+}
+
+.box2 {
+  background-color: peachpuff;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box2 p:hover{
+  color: hotpink;
+}
+      
+div > p {
+  font-size: 3vw;
+}
+      
+ul li {
+  color: palegoldenrod;
+  text-align: left;
+}
+      
+     
+ul > li {
+  font-size: 2vw;
+  margin-left: 2vw;
+}
+
+ul:hover{
+  background-color: whitesmoke;
+}
+
+
+      
+.section1 .box1 {
+  border: 1vmin solid papayawhip;
+}
+      
+      
+.box1 > .box1inner {
+  border: 3vmin dotted whitesmoke;
+}
+
+.section1 > .box2 {
+  border: 3vmin dotted pink;
+}
+
+.section2{
+  background-color: black;
+  padding: 30px;
+  color: white;
+}
+
+.outerpinkbox{
+  background-color: pink;
+  padding: 10px;
+  margin: 10px;
+}
+
+.section2 > .outerpinkbox{
+  border: 1vmin solid whitesmoke;
+}
+
+.starbox {
+  background-color: papayawhip;
+  padding: 5px;
+  margin: 5px;
+}
+
+.box3{
+  background-color: white;
+  width: 30%;
+  height: auto;
+}
+
+.box4 {
+  background-color: white;
+  width: 50%;
+  height:auto;
+  margin-left:4vw;
+
+}
+
+.endbox {
+  background-color: peachpuff;
+  margin: 5px;
+}
+
+.outerpinkbox > .box3, .box4 {
+  border: 2vmin solid palevioletred;
+}
+
+h1, .outerpinkbox{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 5vw;
+}
+
+h2, .starbox, .endbox{
+  color: hotpink;
+}
+.starbox +.box3 {
+  margin-top: 3vw;
+}
+.box3 + .box4 {
+  margin-top: 3vw;
+}
+
+.box4 + .endbox {
+  margin-top: 3vw;
+}
+      
+     
